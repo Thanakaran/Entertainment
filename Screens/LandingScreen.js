@@ -67,7 +67,7 @@ export default function LandingScreen() {
       {/* Header */}
       <View style={styles.header}>
         <View>
-          <Text style={styles.welcomeText}>Welcome Mark 👋</Text>
+          <Text style={styles.welcomeText}>Welcome Thanakaran 👋</Text>
           <Text style={styles.subHeaderText}>Book your favourite movie</Text>
         </View>
         <Image source={profileImage} style={styles.profileImage} />
