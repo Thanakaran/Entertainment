@@ -14,7 +14,7 @@ import Logo from '../assets/images/movielogo.png'
 
 export default function LoginScreen({ navigation }) {
   const handleLogin = () => {
-    navigation.navigate('Landing'); // Navigate to LandingScreen on Login
+    navigation.navigate('Home'); // Navigate to LandingScreen on Login
   };
 
   const handleRegister = () => {
@@ -80,6 +80,8 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#fff',
     justifyContent: 'center',
+    marginBottom: '20%',
+    
   },
   logo: {
     width: 80,
